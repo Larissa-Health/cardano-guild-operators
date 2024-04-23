@@ -61,7 +61,7 @@ cardanocommunity/cardano-node:latest          # Mandatory: image to run
 ### Docker backups and restores
 
 The docker container has an optional backup and restore functionality that can be used to backup the `/opt/cardano/cnode/db` directory. To have the 
-backup persist longer than the countainer, the backup directory should be mounted as a volume.
+backup persist longer than the container, the backup directory should be mounted as a volume.
 
 [!NOTE]
 The backup and restore functionality is disabled by default.
